@@ -60,7 +60,7 @@ lat column: lat, lon column: lon; 1 features, 2 rows skipped
 
 - Latitude names: `lat`, `latitude`, `y`, `lat_deg`, ...; longitude: `lon`, `lng`, `long`,
   `longitude`, `x`, ... (case-insensitive). Use `--lat/--lon` otherwise.
-- Values: `30.0444`, `30,0444`, `33.8688 S`, `W 0.1278`, `30°02'39.8"N`.
+- Values: `30.0444`, `30,0444`, `33.8688 S`, `W 0.1278`, `30°02'39.8"N`, `−33.8688` (typographic minus U+2212).
 - Delimiter: the most frequent of `, ; tab |` in the header line.
 
 ## Demo, notebook, example data
