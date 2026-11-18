@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cairo Metro stations within 5 km of Sadat</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<style>
+ body { margin: 0; font-family: system-ui, sans-serif; }
+ header { padding: 10px 16px; }
+ h1 { font-size: 1.2rem; margin: 0 0 4px; }
+ p { margin: 2px 0; font-size: .9rem; color: #333; }
+ #map { height: calc(100vh - 110px); }
+</style>
+</head>
+<body>
+<header>
+<h1>Cairo Metro stations within 5 km of Sadat</h1>
+<p>32 of the 85 other Cairo Metro station nodes in OpenStreetMap are within 5 km of Sadat (Tahrir) station.</p>
+<p>Points are coloured by great-circle distance to Sadat; the dashed circle is 5 km. Data: (c) OpenStreetMap contributors (ODbL). <a href="https://github.com/AmmarYasser455/csv-to-geojson">Source code: csv-to-geojson</a>. Serve over http (e.g. <code>python -m http.server</code>) so the page can load map.geojson.</p>
+</header>
+<div id="map"></div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+var colours = {"0-2 km": "#08306b", "2-5 km": "#2171b5", "5-10 km": "#6baed6", "over 10 km": "#d9a441"};
+var map = L.map('map');
+L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+}).addTo(map);
+function esc(s) {
+  return String(s).replace(/[&<>"']/g, function (c) {
+    return {'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'}[c];
+  });
+}
+fetch('map.geojson').then(function (r) { return r.json(); }).then(function (data) {
+  var layer = L.geoJSON(data, {
+    style: function (f) {
+      if (f.geometry.type === 'Point') { return {}; }
+      return {color: '#444', weight: 2, dashArray: '6 4', fillOpacity: 0.04};
+    },
+    pointToLayer: function (f, latlng) {
+      var c = colours[f.properties.band] || '#888';
+      return L.circleMarker(latlng, {radius: f.properties.name === 'Sadat' ? 9 : 6,
+        color: '#fff', weight: 1, fillColor: f.properties.name === 'Sadat' ? '#c0392b' : c,
+        fillOpacity: 0.95});
+    },
+    onEachFeature: function (f, l) {
+      var rows = Object.keys(f.properties).map(function (k) {
+        return '<tr><th align="left">' + esc(k) + '</th><td>' + esc(f.properties[k]) + '</td></tr>';
+      }).join('');
+      l.bindPopup('<table>' + rows + '</table>');
+    }
+  }).addTo(map);
+  map.fitBounds(layer.getBounds());
+});
+</script>
+</body>
+</html>

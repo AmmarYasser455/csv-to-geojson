@@ -70,6 +70,15 @@ lat column: lat, lon column: lon; 1 features, 2 rows skipped
 - Notebook: [examples/demo.ipynb](examples/demo.ipynb).
 - Data and its source: [examples/README.md](examples/README.md).
 
+## Showcase
+
+Real data: 86 Cairo Metro station nodes from OpenStreetMap, converted with this tool and
+measured against Sadat (Tahrir) station.
+
+![Cairo Metro stations by distance to Sadat](showcase/map.png)
+
+Report, web map, notebook and GeoJSON: [showcase/](showcase/README.md).
+
 ## Limitations
 
 - Output is WGS 84 (EPSG:4326) in `[longitude, latitude]` order as GeoJSON requires. Input

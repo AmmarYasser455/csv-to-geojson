@@ -1,0 +1,1946 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.2353785,
+     30.0439485
+    ]
+   },
+   "properties": {
+    "osm_id": "316633428",
+    "name": "Sadat",
+    "name_ar": "السادات",
+    "feature_type": "station",
+    "dist_to_sadat_km": 0.0,
+    "band": "0-2 km",
+    "within_5km": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.2380818,
+     30.036568
+    ]
+   },
+   "properties": {
+    "osm_id": "5349031086",
+    "name": "Saad Zaghloul",
+    "name_ar": "سعد زغلول",
+    "feature_type": "station",
+    "dist_to_sadat_km": 0.861,
+    "band": "0-2 km",
+    "within_5km": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.244276,
+     30.0453923
+    ]
+   },
+   "properties": {
+    "osm_id": "329978615",
+    "name": "Mohamed Naguib",
+    "name_ar": "محمد نجيب",
+    "feature_type": "station",
+    "dist_to_sadat_km": 0.871,
+    "band": "0-2 km",
+    "within_5km": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.2250592,
+     30.0419584
+    ]
+   },
+   "properties": {
+    "osm_id": "316632961",
+    "name": "Opera",
+    "name_ar": "الأوبرا",
+    "feature_type": "station",
+    "dist_to_sadat_km": 1.018,
+    "band": "0-2 km",
+    "within_5km": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.2388016,
+     30.0535567
+    ]
+   },
+   "properties": {
+    "osm_id": "5349031081",
+    "name": "Nasser",
+    "name_ar": "ناصر",
+    "feature_type": "station",
+    "dist_to_sadat_km": 1.118,
+    "band": "0-2 km",
+    "within_5km": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.2322096,
+     30.0554909
+    ]
+   },
+   "properties": {
+    "osm_id": "10099279472",
+    "name": "Masbero",
+    "name_ar": "ماسبيرو",
+    "feature_type": "station",
+    "dist_to_sadat_km": 1.319,
+    "band": "0-2 km",
+    "within_5km": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.246899,
+     30.0524299
+    ]
+   },
+   "properties": {
+    "osm_id": "5194348149",
+    "name": "Attaba",
+    "name_ar": "العتبة",
+    "feature_type": "station",
+    "dist_to_sadat_km": 1.456,
+    "band": "0-2 km",
+    "within_5km": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.2353861,
+     30.0292488
+    ]
+   },
+   "properties": {
+    "osm_id": "5349031090",
+    "name": "Sayyeda Zeinab",
+    "name_ar": "السيدة زينب",
+    "feature_type": "station",
+    "dist_to_sadat_km": 1.635,
+    "band": "0-2 km",
+    "within_5km": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.2425378,
+     30.0573315
+    ]
+   },
+   "properties": {
+    "osm_id": "5353485467",
+    "name": "Orabi",
+    "name_ar": "عرابي",
+    "feature_type": "station",
+    "dist_to_sadat_km": 1.64,
+    "band": "0-2 km",
+    "within_5km": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.2460174,
+     30.061851
+    ]
+   },
+   "properties": {
+    "osm_id": "5194295702",
+    "name": "Shuhada",
+    "name_ar": "الشهداء",
+    "feature_type": "station",
+    "dist_to_sadat_km": 2.239,
+    "band": "2-5 km",
+    "within_5km": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.255875,
+     30.0537108
+    ]
+   },
+   "properties": {
+    "osm_id": "5194348146",
+    "name": "Bab el Shaaria",
+    "name_ar": "باب الشعرية",
+    "feature_type": "station",
+    "dist_to_sadat_km": 2.252,
+    "band": "2-5 km",
+    "within_5km": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.2120446,
+     30.0382224
+    ]
+   },
+   "properties": {
+    "osm_id": "316632940",
+    "name": "Dokki",
+    "name_ar": "الدقى",
+    "feature_type": "station",
+    "dist_to_sadat_km": 2.335,
+    "band": "2-5 km",
+    "within_5km": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.2225161,
+     30.062404
+    ]
+   },
+   "properties": {
+    "osm_id": "10099279485",
+    "name": "Safaa Hegazy",
+    "name_ar": "صفاء حجازي",
+    "feature_type": "station",
+    "dist_to_sadat_km": 2.397,
+    "band": "2-5 km",
+    "within_5km": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.2312066,
+     30.0176827
+    ]
+   },
+   "properties": {
+    "osm_id": "5349031092",
+    "name": "Al-Malek Al-Saleh",
+    "name_ar": "الملك الصالح",
+    "feature_type": "station",
+    "dist_to_sadat_km": 2.948,
+    "band": "2-5 km",
+    "within_5km": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.2450193,
+     30.0711007
+    ]
+   },
+   "properties": {
+    "osm_id": "316634158",
+    "name": "Massara",
+    "name_ar": "مسره",
+    "feature_type": "station",
+    "dist_to_sadat_km": 3.159,
+    "band": "2-5 km",
+    "within_5km": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.2129901,
+     30.0667936
+    ]
+   },
+   "properties": {
+    "osm_id": "10099279487",
+    "name": "Kit-kat",
+    "name_ar": "الکيت کات",
+    "feature_type": "station",
+    "dist_to_sadat_km": 3.331,
+    "band": "2-5 km",
+    "within_5km": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.2003443,
+     30.0357796
+    ]
+   },
+   "properties": {
+    "osm_id": "316632871",
+    "name": "Behooth",
+    "name_ar": "البحوث",
+    "feature_type": "station",
+    "dist_to_sadat_km": 3.493,
+    "band": "2-5 km",
+    "within_5km": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.1996873,
+     30.0509547
+    ]
+   },
+   "properties": {
+    "osm_id": "11923472283",
+    "name": "Gamet El Dowel",
+    "name_ar": "جامعة الدول",
+    "feature_type": "station",
+    "dist_to_sadat_km": 3.523,
+    "band": "2-5 km",
+    "within_5km": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.2010183,
+     30.0584617
+    ]
+   },
+   "properties": {
+    "osm_id": "11923457960",
+    "name": "Wadi El Nile",
+    "name_ar": "وادي النيل",
+    "feature_type": "station",
+    "dist_to_sadat_km": 3.68,
+    "band": "2-5 km",
+    "within_5km": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.267974,
+     30.0622622
+    ]
+   },
+   "properties": {
+    "osm_id": "9710900077",
+    "name": "El Geish",
+    "name_ar": "الجيش",
+    "feature_type": "station",
+    "dist_to_sadat_km": 3.74,
+    "band": "2-5 km",
+    "within_5km": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.2012032,
+     30.0259937
+    ]
+   },
+   "properties": {
+    "osm_id": "9162042095",
+    "name": "Cairo University",
+    "name_ar": "جامعة القاهرة",
+    "feature_type": "station",
+    "dist_to_sadat_km": 3.848,
+    "band": "2-5 km",
+    "within_5km": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.2013603,
+     30.0249004
+    ]
+   },
+   "properties": {
+    "osm_id": "11926706145",
+    "name": "Cairo University",
+    "name_ar": "جامعة القاهرة",
+    "feature_type": "station",
+    "dist_to_sadat_km": 3.9,
+    "band": "2-5 km",
+    "within_5km": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.1955031,
+     30.0375445
+    ]
+   },
+   "properties": {
+    "osm_id": "11923472313",
+    "name": "Bulaq El-Dakroor",
+    "name_ar": "محطة مترو بولاق الدكرور",
+    "feature_type": "station",
+    "dist_to_sadat_km": 3.904,
+    "band": "2-5 km",
+    "within_5km": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.2646738,
+     30.068964
+    ]
+   },
+   "properties": {
+    "osm_id": "5349031080",
+    "name": "Ghamra",
+    "name_ar": "الغمرة",
+    "feature_type": "station",
+    "dist_to_sadat_km": 3.961,
+    "band": "2-5 km",
+    "within_5km": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.2021562,
+     30.0650735
+    ]
+   },
+   "properties": {
+    "osm_id": "11926766474",
+    "name": "Al-Tawfikia",
+    "name_ar": "التوفيقية",
+    "feature_type": "station",
+    "dist_to_sadat_km": 3.968,
+    "band": "2-5 km",
+    "within_5km": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.2053352,
+     30.0697816
+    ]
+   },
+   "properties": {
+    "osm_id": "11495611079",
+    "name": "Sudan",
+    "name_ar": "السودان",
+    "feature_type": "station",
+    "dist_to_sadat_km": 4.076,
+    "band": "2-5 km",
+    "within_5km": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.245351,
+     30.0805647
+    ]
+   },
+   "properties": {
+    "osm_id": "316634715",
+    "name": "Rawd El-Farag",
+    "name_ar": "محطة مترو روض الفرج",
+    "feature_type": "station",
+    "dist_to_sadat_km": 4.183,
+    "band": "2-5 km",
+    "within_5km": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.2040345,
+     30.0172948
+    ]
+   },
+   "properties": {
+    "osm_id": "9162042096",
+    "name": "Faisal",
+    "name_ar": "فيصل",
+    "feature_type": "station",
+    "dist_to_sadat_km": 4.23,
+    "band": "2-5 km",
+    "within_5km": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.2295229,
+     30.0058496
+    ]
+   },
+   "properties": {
+    "osm_id": "5218109287",
+    "name": "Mar Girgis",
+    "name_ar": "محطة مترو مار جرجس",
+    "feature_type": "station",
+    "dist_to_sadat_km": 4.274,
+    "band": "2-5 km",
+    "within_5km": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.2075611,
+     30.0759487
+    ]
+   },
+   "properties": {
+    "osm_id": "11495591853",
+    "name": "Imbaba",
+    "name_ar": "إمبابة",
+    "feature_type": "station",
+    "dist_to_sadat_km": 4.453,
+    "band": "2-5 km",
+    "within_5km": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.2071246,
+     30.0105702
+    ]
+   },
+   "properties": {
+    "osm_id": "9162042097",
+    "name": "Giza",
+    "name_ar": "جيزة",
+    "feature_type": "station",
+    "dist_to_sadat_km": 4.602,
+    "band": "2-5 km",
+    "within_5km": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.2764414,
+     30.0653633
+    ]
+   },
+   "properties": {
+    "osm_id": "5194348143",
+    "name": "Abdou Pasha",
+    "name_ar": "عبده باشا",
+    "feature_type": "station",
+    "dist_to_sadat_km": 4.614,
+    "band": "2-5 km",
+    "within_5km": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.2104856,
+     30.0821151
+    ]
+   },
+   "properties": {
+    "osm_id": "11495591842",
+    "name": "Al-Bohy",
+    "name_ar": "البوهي",
+    "feature_type": "station",
+    "dist_to_sadat_km": 4.873,
+    "band": "2-5 km",
+    "within_5km": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.2454098,
+     30.0883026
+    ]
+   },
+   "properties": {
+    "osm_id": "316634831",
+    "name": "Sainte Teresa",
+    "name_ar": "سانت تيريزا",
+    "feature_type": "station",
+    "dist_to_sadat_km": 5.026,
+    "band": "5-10 km",
+    "within_5km": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.2079638,
+     30.0052084
+    ]
+   },
+   "properties": {
+    "osm_id": "316631605",
+    "name": "Omm El Misryeen",
+    "name_ar": "أم المصريين",
+    "feature_type": "station",
+    "dist_to_sadat_km": 5.052,
+    "band": "5-10 km",
+    "within_5km": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.2313586,
+     29.9954381
+    ]
+   },
+   "properties": {
+    "osm_id": "5194246950",
+    "name": "Al-Zahraa",
+    "name_ar": "محطة مترو الزهراء",
+    "feature_type": "station",
+    "dist_to_sadat_km": 5.408,
+    "band": "5-10 km",
+    "within_5km": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.2778133,
+     30.0772574
+    ]
+   },
+   "properties": {
+    "osm_id": "5349031078",
+    "name": "Al-Demerdash",
+    "name_ar": "الدمرداش",
+    "feature_type": "station",
+    "dist_to_sadat_km": 5.513,
+    "band": "5-10 km",
+    "within_5km": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.2840893,
+     30.0727858
+    ]
+   },
+   "properties": {
+    "osm_id": "5194348142",
+    "name": "Abbassia",
+    "name_ar": "العباسية",
+    "feature_type": "station",
+    "dist_to_sadat_km": 5.68,
+    "band": "5-10 km",
+    "within_5km": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.208614,
+     29.9954853
+    ]
+   },
+   "properties": {
+    "osm_id": "9160395525",
+    "name": "Sakiat Mekki",
+    "name_ar": "ساقية مكي",
+    "feature_type": "station",
+    "dist_to_sadat_km": 5.973,
+    "band": "5-10 km",
+    "within_5km": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.2088797,
+     30.0932033
+    ]
+   },
+   "properties": {
+    "osm_id": "11495591841",
+    "name": "Al-Kawmeiah",
+    "name_ar": "القومية",
+    "feature_type": "station",
+    "dist_to_sadat_km": 6.041,
+    "band": "5-10 km",
+    "within_5km": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.2454368,
+     30.0977898
+    ]
+   },
+   "properties": {
+    "osm_id": "2181318225",
+    "name": "Al-Khalafawy",
+    "name_ar": "الخلفاوي",
+    "feature_type": "station",
+    "dist_to_sadat_km": 6.065,
+    "band": "5-10 km",
+    "within_5km": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.2878414,
+     30.0822064
+    ]
+   },
+   "properties": {
+    "osm_id": "5349031077",
+    "name": "Manshiet Al-Sadr",
+    "name_ar": "منشية الصدر",
+    "feature_type": "station",
+    "dist_to_sadat_km": 6.602,
+    "band": "5-10 km",
+    "within_5km": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.2461248,
+     30.1040913
+    ]
+   },
+   "properties": {
+    "osm_id": "316635179",
+    "name": "Al-Mezallat",
+    "name_ar": "المظلات",
+    "feature_type": "station",
+    "dist_to_sadat_km": 6.767,
+    "band": "5-10 km",
+    "within_5km": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.1995819,
+     30.0964108
+    ]
+   },
+   "properties": {
+    "osm_id": "11495591819",
+    "name": "Ring Road",
+    "name_ar": "الطريق الدائري",
+    "feature_type": "station",
+    "dist_to_sadat_km": 6.775,
+    "band": "5-10 km",
+    "within_5km": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.2422043,
+     29.98203
+    ]
+   },
+   "properties": {
+    "osm_id": "5194246947",
+    "name": "Dar Al-Salam Metro Station",
+    "name_ar": "محطة مترو دار السلام",
+    "feature_type": "station",
+    "dist_to_sadat_km": 6.916,
+    "band": "5-10 km",
+    "within_5km": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.3011479,
+     30.073329
+    ]
+   },
+   "properties": {
+    "osm_id": "5194348141",
+    "name": "Cairo Fairground",
+    "name_ar": "أرض المعارض",
+    "feature_type": "station",
+    "dist_to_sadat_km": 7.123,
+    "band": "5-10 km",
+    "within_5km": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.2119674,
+     29.9811369
+    ]
+   },
+   "properties": {
+    "osm_id": "9160333614",
+    "name": "Al-Mounib",
+    "name_ar": "المنيب",
+    "feature_type": "station",
+    "dist_to_sadat_km": 7.339,
+    "band": "5-10 km",
+    "within_5km": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.2938181,
+     30.0869694
+    ]
+   },
+   "properties": {
+    "osm_id": "5349031076",
+    "name": "Kobri Al-Qobba",
+    "name_ar": "كوبري القبة",
+    "feature_type": "station",
+    "dist_to_sadat_km": 7.383,
+    "band": "5-10 km",
+    "within_5km": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.2487433,
+     30.1137638
+    ]
+   },
+   "properties": {
+    "osm_id": "9164359294",
+    "name": "Koliet El-Zeraa",
+    "name_ar": "كلية الزراعة",
+    "feature_type": "station",
+    "dist_to_sadat_km": 7.869,
+    "band": "5-10 km",
+    "within_5km": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.2981109,
+     30.0903392
+    ]
+   },
+   "properties": {
+    "osm_id": "5349031075",
+    "name": "Hammamat Al-Qobba",
+    "name_ar": "حمامات القبة",
+    "feature_type": "station",
+    "dist_to_sadat_km": 7.941,
+    "band": "5-10 km",
+    "within_5km": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.1841656,
+     30.1018837
+    ]
+   },
+   "properties": {
+    "osm_id": "11495591793",
+    "name": "El-Dabaa Axis Metro Station (Rod El-Farag Axis)",
+    "name_ar": "محطه مترو محور الضبعة  (محور روض الفرج)",
+    "feature_type": "station",
+    "dist_to_sadat_km": 8.111,
+    "band": "5-10 km",
+    "within_5km": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.1842088,
+     30.1022462
+    ]
+   },
+   "properties": {
+    "osm_id": "11328539169",
+    "name": "El-Dabaa Axis Metro Station (Rod El-Farag Axis)",
+    "name_ar": "محطه مترو محور الضبعة  (محور روض الفرج)",
+    "feature_type": "station",
+    "dist_to_sadat_km": 8.14,
+    "band": "5-10 km",
+    "within_5km": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.2506712,
+     29.9701006
+    ]
+   },
+   "properties": {
+    "osm_id": "2110350259",
+    "name": "Hadayeq El-Maadi Metro Station",
+    "name_ar": "محطة مترو حدائق المعادى",
+    "feature_type": "station",
+    "dist_to_sadat_km": 8.343,
+    "band": "5-10 km",
+    "within_5km": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.3173959,
+     30.072948
+    ]
+   },
+   "properties": {
+    "osm_id": "5194348153",
+    "name": "Stadium",
+    "name_ar": "الإستاد",
+    "feature_type": "station",
+    "dist_to_sadat_km": 8.527,
+    "band": "5-10 km",
+    "within_5km": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.2434932,
+     30.1240927
+    ]
+   },
+   "properties": {
+    "osm_id": "9164359293",
+    "name": "Shobra Al-Kheima",
+    "name_ar": "شبرا الخيمة",
+    "feature_type": "station",
+    "dist_to_sadat_km": 8.946,
+    "band": "5-10 km",
+    "within_5km": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.3047494,
+     30.0980698
+    ]
+   },
+   "properties": {
+    "osm_id": "5349031074",
+    "name": "Saray Al-Qobba",
+    "name_ar": "سراي القبة",
+    "feature_type": "station",
+    "dist_to_sadat_km": 8.988,
+    "band": "5-10 km",
+    "within_5km": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.2580736,
+     29.9598395
+    ]
+   },
+   "properties": {
+    "osm_id": "312555676",
+    "name": "Maadi",
+    "name_ar": "المعادى",
+    "feature_type": "station",
+    "dist_to_sadat_km": 9.604,
+    "band": "5-10 km",
+    "within_5km": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.3099368,
+     30.1051989
+    ]
+   },
+   "properties": {
+    "osm_id": "5349031073",
+    "name": "Hadayeq Al-Zaitoun",
+    "name_ar": "حدائق الزيتون",
+    "feature_type": "station",
+    "dist_to_sadat_km": 9.892,
+    "band": "5-10 km",
+    "within_5km": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.3292503,
+     30.0843667
+    ]
+   },
+   "properties": {
+    "osm_id": "5007646022",
+    "name": "Koleyet El Banat subway station",
+    "name_ar": "محطة مترو كلية البنات",
+    "feature_type": "station",
+    "dist_to_sadat_km": 10.09,
+    "band": "over 10 km",
+    "within_5km": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.3264965,
+     30.0913176
+    ]
+   },
+   "properties": {
+    "osm_id": "5194348148",
+    "name": "Al Ahram",
+    "name_ar": "الاهرام",
+    "feature_type": "station",
+    "dist_to_sadat_km": 10.229,
+    "band": "over 10 km",
+    "within_5km": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.2634668,
+     29.9528426
+    ]
+   },
+   "properties": {
+    "osm_id": "316638736",
+    "name": "Thakanat El-Maadi",
+    "name_ar": "ثكنات المعادي",
+    "feature_type": "station",
+    "dist_to_sadat_km": 10.485,
+    "band": "over 10 km",
+    "within_5km": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.3139,
+     30.1143455
+    ]
+   },
+   "properties": {
+    "osm_id": "316643091",
+    "name": "Helmeyet Al-Zaitoun",
+    "name_ar": "حلمية الزيتون",
+    "feature_type": "station",
+    "dist_to_sadat_km": 10.879,
+    "band": "over 10 km",
+    "within_5km": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.332762,
+     30.1011092
+    ]
+   },
+   "properties": {
+    "osm_id": "7153613352",
+    "name": "Haroun",
+    "name_ar": "هارون",
+    "feature_type": "station",
+    "dist_to_sadat_km": 11.323,
+    "band": "over 10 km",
+    "within_5km": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.3139749,
+     30.1213801
+    ]
+   },
+   "properties": {
+    "osm_id": "5349031070",
+    "name": "El-Matareyya",
+    "name_ar": "المطرية",
+    "feature_type": "station",
+    "dist_to_sadat_km": 11.46,
+    "band": "over 10 km",
+    "within_5km": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.2735808,
+     29.9463299
+    ]
+   },
+   "properties": {
+    "osm_id": "5349031096",
+    "name": "Tora El-Balad",
+    "name_ar": "طرة البلد",
+    "feature_type": "station",
+    "dist_to_sadat_km": 11.461,
+    "band": "over 10 km",
+    "within_5km": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.3381815,
+     30.1079599
+    ]
+   },
+   "properties": {
+    "osm_id": "7153613353",
+    "name": "Heliopolis",
+    "name_ar": "هليوبوليس",
+    "feature_type": "station",
+    "dist_to_sadat_km": 12.187,
+    "band": "over 10 km",
+    "within_5km": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.3190751,
+     30.1310378
+    ]
+   },
+   "properties": {
+    "osm_id": "5349031069",
+    "name": "Ain Shams",
+    "name_ar": "عين شمس",
+    "feature_type": "station",
+    "dist_to_sadat_km": 12.595,
+    "band": "over 10 km",
+    "within_5km": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.2817074,
+     29.9361514
+    ]
+   },
+   "properties": {
+    "osm_id": "316638613",
+    "name": "Kozzika",
+    "name_ar": "كوتسكا",
+    "feature_type": "station",
+    "dist_to_sadat_km": 12.79,
+    "band": "over 10 km",
+    "within_5km": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.3398266,
+     30.1180729
+    ]
+   },
+   "properties": {
+    "osm_id": "7153613350",
+    "name": "Alf Maskan",
+    "name_ar": "مترو ألف مسكن",
+    "feature_type": "station",
+    "dist_to_sadat_km": 12.998,
+    "band": "over 10 km",
+    "within_5km": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.3439721,
+     30.1223062
+    ]
+   },
+   "properties": {
+    "osm_id": "7153613351",
+    "name": "El Shams Club",
+    "name_ar": "نادي الشمس‎",
+    "feature_type": "station",
+    "dist_to_sadat_km": 13.605,
+    "band": "over 10 km",
+    "within_5km": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.3244931,
+     30.1392826
+    ]
+   },
+   "properties": {
+    "osm_id": "5349031067",
+    "name": "Ezbet en Nakhl",
+    "name_ar": "محطة عزبة النخل",
+    "feature_type": "station",
+    "dist_to_sadat_km": 13.634,
+    "band": "over 10 km",
+    "within_5km": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.2876941,
+     29.9258484
+    ]
+   },
+   "properties": {
+    "osm_id": "316638605",
+    "name": "Tora El-Asmant",
+    "name_ar": "طرة الأسمنت",
+    "feature_type": "station",
+    "dist_to_sadat_km": 14.066,
+    "band": "over 10 km",
+    "within_5km": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.3605199,
+     30.1281171
+    ]
+   },
+   "properties": {
+    "osm_id": "9159388953",
+    "name": "El Nozha",
+    "name_ar": "النزهة‎",
+    "feature_type": "station",
+    "dist_to_sadat_km": 15.25,
+    "band": "over 10 km",
+    "within_5km": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.3357665,
+     30.1520818
+    ]
+   },
+   "properties": {
+    "osm_id": "5349031066",
+    "name": "Al Marj",
+    "name_ar": "المرج",
+    "feature_type": "station",
+    "dist_to_sadat_km": 15.422,
+    "band": "over 10 km",
+    "within_5km": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.3730901,
+     30.1309653
+    ]
+   },
+   "properties": {
+    "osm_id": "9159388952",
+    "name": "Hesham Barakat",
+    "name_ar": "هشام بركات‎",
+    "feature_type": "station",
+    "dist_to_sadat_km": 16.407,
+    "band": "over 10 km",
+    "within_5km": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.2997264,
+     29.9061043
+    ]
+   },
+   "properties": {
+    "osm_id": "5348846068",
+    "name": "Al-Maasara",
+    "name_ar": "المعصرة",
+    "feature_type": "station",
+    "dist_to_sadat_km": 16.533,
+    "band": "over 10 km",
+    "within_5km": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.338272,
+     30.1635097
+    ]
+   },
+   "properties": {
+    "osm_id": "5353444300",
+    "name": "New El-Marg",
+    "name_ar": "المرج الجديدة",
+    "feature_type": "station",
+    "dist_to_sadat_km": 16.575,
+    "band": "over 10 km",
+    "within_5km": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.3840616,
+     30.1347604
+    ]
+   },
+   "properties": {
+    "osm_id": "9159388951",
+    "name": "Qubaa",
+    "name_ar": "قباء‎",
+    "feature_type": "station",
+    "dist_to_sadat_km": 17.51,
+    "band": "over 10 km",
+    "within_5km": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.3040668,
+     29.8971871
+    ]
+   },
+   "properties": {
+    "osm_id": "5344953908",
+    "name": "Hadayeq Helwan",
+    "name_ar": "حدائق حلوان",
+    "feature_type": "station",
+    "dist_to_sadat_km": 17.609,
+    "band": "over 10 km",
+    "within_5km": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.39448,
+     30.1404081
+    ]
+   },
+   "properties": {
+    "osm_id": "9159388950",
+    "name": "Omar Ebn Elkhatab",
+    "name_ar": "عمر بن الخطاب‎",
+    "feature_type": "station",
+    "dist_to_sadat_km": 18.691,
+    "band": "over 10 km",
+    "within_5km": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.4048488,
+     30.1438828
+    ]
+   },
+   "properties": {
+    "osm_id": "9159388949",
+    "name": "El Haykestep",
+    "name_ar": "الهايكستب‎",
+    "feature_type": "station",
+    "dist_to_sadat_km": 19.731,
+    "band": "over 10 km",
+    "within_5km": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.3134042,
+     29.8794379
+    ]
+   },
+   "properties": {
+    "osm_id": "5344953909",
+    "name": "Wadi Hof",
+    "name_ar": "وادي حوف",
+    "feature_type": "station",
+    "dist_to_sadat_km": 19.777,
+    "band": "over 10 km",
+    "within_5km": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.3203657,
+     29.8690198
+    ]
+   },
+   "properties": {
+    "osm_id": "14107180933",
+    "name": "Helwan University",
+    "name_ar": "جامعة حلوان",
+    "feature_type": "station",
+    "dist_to_sadat_km": 21.104,
+    "band": "over 10 km",
+    "within_5km": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.4215168,
+     30.1470316
+    ]
+   },
+   "properties": {
+    "osm_id": "9159388948",
+    "name": "Adly Mansour",
+    "name_ar": "عدلى منصور",
+    "feature_type": "station",
+    "dist_to_sadat_km": 21.262,
+    "band": "over 10 km",
+    "within_5km": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.3250068,
+     29.8626591
+    ]
+   },
+   "properties": {
+    "osm_id": "5344953911",
+    "name": "Ain Helwan",
+    "name_ar": "عين حلوان",
+    "feature_type": "station",
+    "dist_to_sadat_km": 21.93,
+    "band": "over 10 km",
+    "within_5km": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     31.3342033,
+     29.8488841
+    ]
+   },
+   "properties": {
+    "osm_id": "316636980",
+    "name": "Helwan",
+    "name_ar": "حلوان",
+    "feature_type": "station",
+    "dist_to_sadat_km": 23.688,
+    "band": "over 10 km",
+    "within_5km": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       31.235378,
+       30.088915
+      ],
+      [
+       31.230849,
+       30.088743
+      ],
+      [
+       31.226354,
+       30.088231
+      ],
+      [
+       31.221928,
+       30.087382
+      ],
+      [
+       31.217605,
+       30.086202
+      ],
+      [
+       31.213416,
+       30.0847
+      ],
+      [
+       31.209396,
+       30.082888
+      ],
+      [
+       31.205573,
+       30.080779
+      ],
+      [
+       31.201977,
+       30.07839
+      ],
+      [
+       31.198636,
+       30.075739
+      ],
+      [
+       31.195574,
+       30.072846
+      ],
+      [
+       31.192816,
+       30.069733
+      ],
+      [
+       31.190382,
+       30.066424
+      ],
+      [
+       31.188291,
+       30.062944
+      ],
+      [
+       31.186558,
+       30.059319
+      ],
+      [
+       31.185197,
+       30.055577
+      ],
+      [
+       31.184218,
+       30.051747
+      ],
+      [
+       31.183629,
+       30.047857
+      ],
+      [
+       31.183433,
+       30.043938
+      ],
+      [
+       31.183633,
+       30.040019
+      ],
+      [
+       31.184226,
+       30.03613
+      ],
+      [
+       31.185209,
+       30.032301
+      ],
+      [
+       31.186573,
+       30.02856
+      ],
+      [
+       31.188309,
+       30.024937
+      ],
+      [
+       31.190403,
+       30.021458
+      ],
+      [
+       31.192838,
+       30.01815
+      ],
+      [
+       31.195598,
+       30.015039
+      ],
+      [
+       31.198659,
+       30.012148
+      ],
+      [
+       31.202,
+       30.009498
+      ],
+      [
+       31.205595,
+       30.007111
+      ],
+      [
+       31.209416,
+       30.005004
+      ],
+      [
+       31.213434,
+       30.003194
+      ],
+      [
+       31.21762,
+       30.001693
+      ],
+      [
+       31.22194,
+       30.000514
+      ],
+      [
+       31.226362,
+       29.999665
+      ],
+      [
+       31.230853,
+       29.999154
+      ],
+      [
+       31.235378,
+       29.998982
+      ],
+      [
+       31.239904,
+       29.999154
+      ],
+      [
+       31.244395,
+       29.999665
+      ],
+      [
+       31.248817,
+       30.000514
+      ],
+      [
+       31.253137,
+       30.001693
+      ],
+      [
+       31.257323,
+       30.003194
+      ],
+      [
+       31.261341,
+       30.005004
+      ],
+      [
+       31.265162,
+       30.007111
+      ],
+      [
+       31.268757,
+       30.009498
+      ],
+      [
+       31.272098,
+       30.012148
+      ],
+      [
+       31.275159,
+       30.015039
+      ],
+      [
+       31.277919,
+       30.01815
+      ],
+      [
+       31.280354,
+       30.021458
+      ],
+      [
+       31.282448,
+       30.024937
+      ],
+      [
+       31.284184,
+       30.02856
+      ],
+      [
+       31.285548,
+       30.032301
+      ],
+      [
+       31.286531,
+       30.03613
+      ],
+      [
+       31.287124,
+       30.040019
+      ],
+      [
+       31.287324,
+       30.043938
+      ],
+      [
+       31.287128,
+       30.047857
+      ],
+      [
+       31.286539,
+       30.051747
+      ],
+      [
+       31.28556,
+       30.055577
+      ],
+      [
+       31.284199,
+       30.059319
+      ],
+      [
+       31.282466,
+       30.062944
+      ],
+      [
+       31.280375,
+       30.066424
+      ],
+      [
+       31.277941,
+       30.069733
+      ],
+      [
+       31.275183,
+       30.072846
+      ],
+      [
+       31.272121,
+       30.075739
+      ],
+      [
+       31.26878,
+       30.07839
+      ],
+      [
+       31.265184,
+       30.080779
+      ],
+      [
+       31.261361,
+       30.082888
+      ],
+      [
+       31.257341,
+       30.0847
+      ],
+      [
+       31.253152,
+       30.086202
+      ],
+      [
+       31.248829,
+       30.087382
+      ],
+      [
+       31.244403,
+       30.088231
+      ],
+      [
+       31.239908,
+       30.088743
+      ],
+      [
+       31.235378,
+       30.088915
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "feature_type": "radius",
+    "name": "5 km from Sadat",
+    "radius_km": 5.0
+   }
+  }
+ ]
+}
