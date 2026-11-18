@@ -71,6 +71,7 @@ def parse_coordinate(text, axis: str = "lat") -> float:
         raise TypeError(f"coordinate must be str, int or float, not {type(text).__name__}")
     if not text.strip():
         raise ValueError("empty value")
+    text = text.replace("−", "-")  # typographic minus (Wikipedia/spreadsheet exports)
     m = _DMS.match(text.replace(" ", " "))
     if not m:
         raise ValueError(f"not a coordinate: {text!r}")

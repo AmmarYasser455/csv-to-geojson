@@ -7,6 +7,16 @@ from csv_to_geojson.core import convert_file
 from csv_to_geojson.cli import main
 
 
+def test_unicode_minus_sign():
+    # Wikipedia-style U+2212 minus: Buenos Aires is 34.6037 S, 58.3816 W
+    assert parse_coordinate("−34.6037", "lat") == pytest.approx(-34.6037)
+    r = convert("city,lat,lon\nBuenos Aires,−34.6037,−58.3816\n")
+    assert not r.errors
+    assert r.geojson["features"][0]["geometry"]["coordinates"] == [-58.3816, -34.6037]
+    with pytest.raises(ValueError):  # still rejected with a hemisphere letter
+        parse_coordinate("−30 N", "lat")
+
+
 def test_parse_formats():
     assert parse_coordinate("30.0444") == pytest.approx(30.0444)
     assert parse_coordinate("30,0444") == pytest.approx(30.0444)
