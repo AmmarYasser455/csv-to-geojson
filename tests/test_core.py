@@ -307,3 +307,40 @@ def test_embedded_newlines_preserved_in_file_and_text(tmp_path, eol, inner):
     out = tmp_path / "nl.json"
     assert main([str(f), "-o", str(out)]) == 0
     assert json.loads(out.read_text(encoding="utf-8"))["features"][0]["properties"]["note"] == inner
+
+
+def test_cli_rejects_file(tmp_path):
+    src = tmp_path / "in.csv"
+    src.write_text("name,lat,lon\nCairo,30.0444,31.2357\nBad,95,10\nSydney,-33.8688,151.2093\n",
+                   encoding="utf-8")
+    rej = tmp_path / "rej.json"
+    assert main([str(src), "-o", str(tmp_path / "o.geojson"), "--rejects", str(rej)]) == 0
+    assert json.loads(rej.read_text(encoding="utf-8")) == [
+        {"line": 3, "reason": "lat: lat out of range [-90, 90]: 95.0",
+         "values": {"name": "Bad", "lat": "95", "lon": "10"}}]
+    ok = tmp_path / "ok.csv"
+    ok.write_text("lat,lon\n30.0444,31.2357\n", encoding="utf-8")
+    assert main([str(ok), "-o", str(tmp_path / "o2.geojson"), "--rejects", str(rej)]) == 0
+    assert json.loads(rej.read_text(encoding="utf-8")) == []
+    assert main([str(src), "-o", str(tmp_path / "o3.geojson"),
+                 "--rejects", str(tmp_path / "nodir" / "r.json")]) == 2
+
+
+def test_cli_rejects_path_collisions(tmp_path):
+    src = tmp_path / "in.csv"
+    text = "name,lat,lon\nCairo,30.0444,31.2357\nBad,95,10\n"
+    src.write_text(text, encoding="utf-8")
+    out = tmp_path / "o.geojson"
+    out.write_text("keep", encoding="utf-8")
+    assert main([str(src), "-o", str(out), "--rejects", str(out)]) == 2
+    assert main([str(src), "-o", str(out), "--rejects", str(tmp_path / "." / "o.geojson")]) == 2
+    assert main([str(src), "-o", str(out), "--rejects", str(src)]) == 2
+    assert main([str(src), "--rejects", str(src)]) == 2
+    link = tmp_path / "link.json"
+    link.symlink_to(src)
+    assert main([str(src), "-o", str(out), "--rejects", str(link)]) == 2
+    hard = tmp_path / "hard.json"
+    hard.hardlink_to(out)
+    assert main([str(src), "-o", str(out), "--rejects", str(hard)]) == 2
+    assert src.read_text(encoding="utf-8") == text
+    assert out.read_text(encoding="utf-8") == "keep"
