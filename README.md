@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/brand/logo.png" alt="csv-to-geojson logo" width="112">
+</p>
+
 # csv-to-geojson
 
 Turn a CSV with coordinates into GeoJSON. It auto-detects the latitude and longitude
