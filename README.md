@@ -1,5 +1,8 @@
 <p align="center">
-  <img src="assets/brand/logo.png" alt="csv-to-geojson logo" width="112">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/brand/logo-dark.png">
+    <img src="assets/brand/logo.png" alt="csv-to-geojson logo" width="112">
+  </picture>
 </p>
 
 # csv-to-geojson
