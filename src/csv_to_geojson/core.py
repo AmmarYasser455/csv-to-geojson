@@ -127,10 +127,24 @@ def detect_columns(fieldnames) -> tuple[str, str]:
     return _resolve(_check_header(fieldnames), None, None)
 
 
+def _match_name(c, names, axis):
+    """Return the header equal to c, else the single header equal ignoring case and padding."""
+    if c in names:
+        return c
+    key = c.strip().casefold()
+    loose = [n for n in names if n.strip().casefold() == key] if key else []
+    if len(loose) == 1:
+        return loose[0]
+    if loose:
+        raise ConversionError(f"{axis} column {c!r} matches several columns {loose}; use the exact name")
+    raise ConversionError(f"{axis} column {c!r} not found in {names}")
+
+
 def _resolve(names, lat, lon):
-    for c, axis in ((lat, "lat"), (lon, "lon")):
-        if c is not None and c not in names:
-            raise ConversionError(f"{axis} column {c!r} not found in {names}")
+    if lat is not None:
+        lat = _match_name(lat, names, "lat")
+    if lon is not None:
+        lon = _match_name(lon, names, "lon")
     if lat is None:
         lat = _find(names, LAT_NAMES, "lat", exclude=lon)
     if lon is None:

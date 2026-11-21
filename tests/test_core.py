@@ -353,3 +353,47 @@ def test_cli_rejects_path_collisions(tmp_path):
     assert main([str(src), "-o", str(out), "--rejects", str(hard)]) == 2
     assert src.read_text(encoding="utf-8") == text
     assert out.read_text(encoding="utf-8") == "keep"
+
+
+def test_explicit_column_names_match_ignoring_case_and_padding():
+    text = "name, Latitude ,LONGITUDE\nSydney,-33.8688,151.2093\n"
+    res = convert(text, lat="latitude", lon=" longitude")
+    assert (res.lat_column, res.lon_column) == (" Latitude ", "LONGITUDE")
+    assert res.geojson["features"][0]["geometry"]["coordinates"] == [151.2093, -33.8688]
+
+
+def test_explicit_column_exact_name_wins_and_ambiguity_rejected():
+    res = convert("a,A,b\n10,20,30\n", lat="a", lon="b")
+    assert res.lat_column == "a"
+    with pytest.raises(ConversionError):
+        convert("a,A,b\n10,20,30\n", lat="  A ", lon="b")
+    with pytest.raises(ConversionError):
+        convert("a,b\n1,2\n", lat="nope", lon="b")
+
+
+@pytest.mark.parametrize("header, lat, lon, expected", [
+    ("lat,lon", None, None, ("lat", "lon")),             # auto-detect unchanged
+    ("Lat,Lon", "LAT", None, ("Lat", "Lon")),            # override one axis, detect the other
+    ("y_val,x_val", " Y_VAL ", "x_val", ("y_val", "x_val")),
+    ("a,A,b", "A", "b", ("A", "b")),                     # exact match beats a loose one
+    ("a,A,b", "a ", "b", ConversionError),               # ambiguous loose match
+    ("lat,lon", "LAT", "lat", ConversionError),          # both resolve to the same column
+    ("lat,lon", "", "lon", ConversionError),             # empty name
+    ("lat,,lon", " ", "lon", ConversionError),           # blank name never loosely matches a blank header
+    ("lat,lon", "missing", "lon", ConversionError),
+    ("lat,lon", 1, "lon", TypeError),
+    ("lat,lon", "lat", ["lon"], TypeError),
+    ("lat,lon", {"lat": 1}, "lon", TypeError),
+    ("lat,lon", b"lat", "lon", TypeError),
+    ("lat,lon", float("nan"), "lon", TypeError),
+])
+def test_explicit_column_name_inputs(header, lat, lon, expected):
+    row = "0,-33.8688,151.2093" if header.count(",") == 2 else "-33.8688,151.2093"
+    text = f"{header}\n{row}\n"
+    if isinstance(expected, type):
+        with pytest.raises(expected):
+            convert(text, lat=lat, lon=lon)
+        return
+    res = convert(text, lat=lat, lon=lon)
+    assert (res.lat_column, res.lon_column) == expected
+    assert res.geojson["features"][0]["geometry"]["coordinates"] == [151.2093, -33.8688]
