@@ -7,6 +7,15 @@ from csv_to_geojson.core import convert_file
 from csv_to_geojson.cli import main
 
 
+def test_zero_is_never_negative_zero():
+    import math
+    for text, axis in (("-0", "lat"), ("0 S", "lat"), ("W 0", "lon"), ("-0°0'0\"", "lon"), (-0.0, "lat")):
+        assert math.copysign(1.0, parse_coordinate(text, axis)) == 1.0
+    r = convert("name,lat,lon\nGreenwich,51.4769,-0\n")
+    assert r.geojson["features"][0]["geometry"]["coordinates"] == [0.0, 51.4769]
+    assert "-0.0" not in json.dumps(r.geojson)
+
+
 def test_unicode_minus_sign():
     # Wikipedia-style U+2212 minus: Buenos Aires is 34.6037 S, 58.3816 W
     assert parse_coordinate("−34.6037", "lat") == pytest.approx(-34.6037)

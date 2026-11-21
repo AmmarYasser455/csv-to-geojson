@@ -66,7 +66,7 @@ def parse_coordinate(text, axis: str = "lat") -> float:
     if isinstance(text, bool):
         raise TypeError("coordinate must be str, int or float, not bool")
     if isinstance(text, (int, float)):
-        return _check_range(float(text), axis, text)
+        return _check_range(float(text), axis, text) + 0.0  # -0.0 -> 0.0
     if not isinstance(text, str):
         raise TypeError(f"coordinate must be str, int or float, not {type(text).__name__}")
     if not text.strip():
@@ -95,7 +95,7 @@ def parse_coordinate(text, axis: str = "lat") -> float:
     value = deg + minutes / 60 + seconds / 3600
     if m["sign"] == "-" or hemi in ("S", "W"):
         value = -value
-    return _check_range(value, axis, text)
+    return _check_range(value, axis, text) + 0.0  # "-0" / "0 S" -> 0.0, not -0.0
 
 
 def _check_header(fieldnames) -> list:
