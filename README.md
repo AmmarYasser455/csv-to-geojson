@@ -37,7 +37,7 @@ lat column: latitude, lon column: longitude; 8 features, 0 rows skipped
 
 Options: `--lat`, `--lon` (explicit columns), `--delimiter`, `--encoding`, `--strict`
 (exit status 1 if any row was skipped), `--rejects FILE` (write the skipped rows as JSON:
-`line`, `reason`, original `values`; an empty list when nothing was skipped), `-o` (default: stdout). Exit status 2 means the
+`line`, `reason`, original `values`; an empty list when nothing was skipped), `-o` (default: stdout), `--version`. Exit status 2 means the
 file could not be converted at all. `python -m csv_to_geojson` works too.
 
 Skipped rows are reported on stderr:
