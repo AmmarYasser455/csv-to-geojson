@@ -7,6 +7,7 @@
 
 # csv-to-geojson
 
+Part of [OpenTerra](https://github.com/AmmarYasser455), a family of open GIS tools.
 Turn a CSV with coordinates into GeoJSON. It auto-detects the latitude and longitude
 columns, understands several coordinate formats, and reports the rows it could not parse
 instead of silently dropping them. No dependencies beyond the Python standard library.
