@@ -7,6 +7,7 @@ import json
 import os
 import sys
 
+from . import __version__
 from .core import ConversionError, convert_file
 
 
@@ -25,6 +26,7 @@ def main(argv=None) -> int:
         prog="csv-to-geojson",
         description="Convert a CSV with coordinates to GeoJSON (WGS 84, [lon, lat]).",
     )
+    p.add_argument("--version", action="version", version=f"%(prog)s {__version__}")
     p.add_argument("csv", help="input CSV file")
     p.add_argument("-o", "--output", help="output file (default: stdout)")
     p.add_argument("--lat", help="latitude column (default: auto-detect)")

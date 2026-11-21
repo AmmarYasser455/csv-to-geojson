@@ -397,3 +397,20 @@ def test_explicit_column_name_inputs(header, lat, lon, expected):
     res = convert(text, lat=lat, lon=lon)
     assert (res.lat_column, res.lon_column) == expected
     assert res.geojson["features"][0]["geometry"]["coordinates"] == [151.2093, -33.8688]
+
+
+def test_cli_version(capsys):
+    from csv_to_geojson import __version__
+    with pytest.raises(SystemExit) as e:
+        main(["--version"])
+    assert e.value.code == 0
+    assert capsys.readouterr().out.strip() == f"csv-to-geojson {__version__}"
+
+
+def test_version_matches_pyproject():
+    tomllib = pytest.importorskip("tomllib")
+    from pathlib import Path
+    from csv_to_geojson import __version__
+    pyproject = Path(__file__).resolve().parents[1] / "pyproject.toml"
+    with open(pyproject, "rb") as f:
+        assert tomllib.load(f)["project"]["version"] == __version__
