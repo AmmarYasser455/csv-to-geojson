@@ -101,6 +101,8 @@ Report, web map, notebook and GeoJSON: [showcase/](showcase/README.md).
 - Rows with a valid latitude but invalid longitude are skipped entirely.
 - Rows with more fields than the header (e.g. unquoted decimal commas) are reported and skipped.
 - A sign combined with a hemisphere letter (`-30 N`) is rejected; use either `-30` or `30 S`.
+- `--lat` / `--lon` match a header exactly, or else ignoring case and surrounding spaces
+  (`--lat LATITUDE` finds `latitude`) when that is unambiguous.
 - `--lat` / `--lon` may be given alone; the other axis is then auto-detected among the
   remaining columns. Giving the same column for both is an error.
 - Duplicate header names are rejected, and so is a header with more than one candidate
